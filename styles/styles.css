@@ -94,8 +94,8 @@ hr{
     courses style starts here 
 *******************************/
 .courses{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 .course{
@@ -151,5 +151,16 @@ responsive area starts here
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
