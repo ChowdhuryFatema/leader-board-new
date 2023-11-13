@@ -4,6 +4,6 @@ Author - Fatema Chowdhury
 https://chowdhuryfatema.github.io/leader-board-new/
 ## Technologies
 -Html5 </br>
--Row CSS </br>
+-Raw CSS </br>
 -Responsive </br>
 -Font Awesome
